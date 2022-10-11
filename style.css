@@ -1,0 +1,36 @@
+
+
+tbody tr img {
+    width: 30px;
+}
+
+.search-box {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+input {
+    width: 300px;
+    max-width: 80%;
+    border-radius: 10px;
+    border: none;
+    background-color: blue;
+    padding: 10px;
+    outline: none;
+    color: #fff;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+input::placeholder {
+    color: #fff;
+}
+
+input:focus {
+    box-shadow: 0 5px 8px grey;
+}
